@@ -7,6 +7,7 @@ Currently ships ports for:
 - **Windows Terminal** (`ports/windows-terminal/muah.json`)
 - **tmux** (`ports/tmux/muah.tmux.conf`)
 - **fzf** (`ports/fzf/muah.opts`)
+- **zsh** — fast-syntax-highlighting (`ports/zsh/muah.zsh`)
 
 ## Install
 
@@ -51,6 +52,20 @@ cp ports/fzf/muah.opts ~/.config/fzf/muah.opts
 ```
 
 Open a new shell and hit Ctrl+R to verify.
+
+### zsh (fast-syntax-highlighting)
+
+Overrides the `FAST_HIGHLIGHT_STYLES` color table with muah palette values. Must be sourced **after** `zdharma-continuum/fast-syntax-highlighting` has loaded.
+
+```bash
+mkdir -p ~/.config/zsh
+cp ports/zsh/muah.zsh ~/.config/zsh/muah.zsh
+
+# then in your zsh init AFTER fast-syntax-highlighting loads:
+#   source ~/.config/zsh/muah.zsh
+```
+
+Reload (`exec zsh`) and type any command — keywords like `if`/`for`/`function` render pink, commands green, paths sky blue, strings light blue, comments grey.
 
 ## Iteration loop
 
