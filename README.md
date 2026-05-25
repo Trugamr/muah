@@ -1,5 +1,9 @@
 # muah
 
+<p align="center">
+  <img src="assets/preview.svg" alt="muah — terminal preview" width="720">
+</p>
+
 A pastel dark theme with a pop of pink. 💋
 
 Currently ships ports for:
@@ -83,7 +87,9 @@ npm run build && cp ports/zed/muah.json ~/.config/zed/themes/muah.json
 palette/dark.json              single source of truth — named hex values
 templates/                     per-app templates with {{token}} placeholders
 ports/                         generated output (do not edit by hand)
+assets/preview.svg             README hero — regenerated from the palette
 scripts/build.js               zero-dep Node generator
+scripts/preview.js             builds assets/preview.svg via `freeze`
 ```
 
 ## Building
@@ -92,7 +98,7 @@ scripts/build.js               zero-dep Node generator
 npm run build
 ```
 
-Reads `palette/dark.json`, expands every template in `templates/`, writes the result to the matching path under `ports/`.
+Reads `palette/dark.json`, expands every template in `templates/`, writes the result to the matching path under `ports/`, then regenerates `assets/preview.svg` via [`freeze`](https://github.com/charmbracelet/freeze) (must be on `PATH`).
 
 ## Contributing
 

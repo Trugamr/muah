@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.js",
+    "postbuild": "node scripts/preview.js",
+    "preview": "node scripts/preview.js",
     "tune": "node scripts/tune.js"
   }
 }
