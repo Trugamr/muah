@@ -1,10 +1,8 @@
 # muah
 
-<p align="center">
-  <img src="assets/preview.svg" alt="muah — terminal preview" width="720">
-</p>
-
 A pastel dark theme with a pop of pink. 💋
+
+<img src="assets/preview.svg" alt="muah — terminal preview" width="540">
 
 Currently ships ports for:
 - **Zed** (`ports/zed/muah.json`)
