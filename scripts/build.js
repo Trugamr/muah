@@ -32,6 +32,7 @@ const renderHex6 = renderer((hex) => hex);
 const targets = [
   { template: "zed.json",              out: "ports/zed/muah.json",              render: renderHex },
   { template: "windows-terminal.json", out: "ports/windows-terminal/muah.json", render: renderHex6 },
+  { template: "tmux.conf",             out: "ports/tmux/muah.tmux.conf",        render: renderHex6 },
 ];
 
 /**

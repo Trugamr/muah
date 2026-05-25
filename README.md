@@ -5,6 +5,7 @@ A pastel dark theme with a pop of pink. 💋
 Currently ships ports for:
 - **Zed** (`ports/zed/muah.json`)
 - **Windows Terminal** (`ports/windows-terminal/muah.json`)
+- **tmux** (`ports/tmux/muah.tmux.conf`)
 
 ## Install
 
@@ -20,6 +21,21 @@ cp ports/zed/muah.json ~/.config/zed/themes/muah.json
 ### Windows Terminal
 
 Open `settings.json` (Ctrl+, → "Open JSON file"), find the top-level `"schemes"` array, and paste the entire object from `ports/windows-terminal/muah.json` into it. Then set `"colorScheme": "muah"` on a profile.
+
+### tmux
+
+Drop the generated config into your tmux config directory and source it from your main `.tmux.conf`:
+
+```bash
+mkdir -p ~/.config/tmux
+cp ports/tmux/muah.tmux.conf ~/.config/tmux/muah.conf
+
+# then add to ~/.tmux.conf:
+#   source-file ~/.config/tmux/muah.conf
+
+# reload tmux to apply:
+tmux source-file ~/.tmux.conf
+```
 
 ## Iteration loop
 
