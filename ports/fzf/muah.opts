@@ -5,12 +5,12 @@
 #   export FZF_DEFAULT_OPTS_FILE=~/.config/fzf/muah.opts
 
 --color=fg:#f0f6fc
---color=bg:#151b23
---color=hl:#ef8fb4
+--color=bg:#0d1117
+--color=hl:#9adfb0
 
 --color=fg+:#f0f6fc
 --color=bg+:#212830
---color=hl+:#ef8fb4
+--color=hl+:#9adfb0
 
 --color=info:#9198a1
 --color=prompt:#ef8fb4
@@ -19,7 +19,7 @@
 --color=spinner:#7eb1f0
 --color=header:#b59cea
 --color=border:#3d444d
---color=gutter:#151b23
+--color=gutter:#0d1117
 
 --color=preview-fg:#f0f6fc
 --color=preview-bg:#010409

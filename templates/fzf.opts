@@ -5,12 +5,12 @@
 #   export FZF_DEFAULT_OPTS_FILE=~/.config/fzf/muah.opts
 
 --color=fg:{{text}}
---color=bg:{{surface0}}
---color=hl:{{pink}}
+--color=bg:{{crust}}
+--color=hl:{{bright_green}}
 
 --color=fg+:{{text}}
 --color=bg+:{{surface1}}
---color=hl+:{{pink}}
+--color=hl+:{{bright_green}}
 
 --color=info:{{subtext}}
 --color=prompt:{{pink}}
@@ -19,7 +19,7 @@
 --color=spinner:{{accent_blue}}
 --color=header:{{purple}}
 --color=border:{{overlay0}}
---color=gutter:{{surface0}}
+--color=gutter:{{crust}}
 
 --color=preview-fg:{{text}}
 --color=preview-bg:{{mantle}}
