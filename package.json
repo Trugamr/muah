@@ -1,0 +1,11 @@
+{
+  "name": "muah",
+  "version": "0.1.0",
+  "description": "muah — a cross-platform theme",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "tune": "node scripts/tune.js"
+  }
+}

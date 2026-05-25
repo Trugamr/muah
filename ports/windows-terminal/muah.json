@@ -1,0 +1,25 @@
+{
+  "name": "muah",
+  "background": "#010409",
+  "foreground": "#f0f6fc",
+  "cursorColor": "#e87aa6",
+  "selectionBackground": "#5e95da",
+
+  "black":         "#2f3742",
+  "red":           "#e0726b",
+  "green":         "#5fc275",
+  "yellow":        "#dab955",
+  "blue":          "#5a93de",
+  "purple":        "#e87aa6",
+  "cyan":          "#4cb8a8",
+  "white":         "#f0f6fc",
+
+  "brightBlack":   "#656c76",
+  "brightRed":     "#f08982",
+  "brightGreen":   "#7fd098",
+  "brightYellow":  "#e5cc70",
+  "brightBlue":    "#7daee0",
+  "brightPurple":  "#f098bc",
+  "brightCyan":    "#70c7b8",
+  "brightWhite":   "#ffffff"
+}

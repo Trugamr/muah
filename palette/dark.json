@@ -1,0 +1,58 @@
+{
+  "name": "muah",
+  "appearance": "dark",
+  "colors": {
+    "transparent":   "#000000",
+    "mantle":        "#010409",
+    "crust":         "#0d1117",
+    "surface0":      "#151b23",
+    "surface1":      "#212830",
+    "surface2":      "#2f3742",
+    "overlay0":      "#3d444d",
+    "overlay1":      "#656c76",
+    "subtext":       "#9198a1",
+    "text":          "#f0f6fc",
+    "white":         "#ffffff",
+
+    "red":           "#ea928c",
+    "bright_red":    "#f5aca4",
+    "crimson":       "#e06868",
+
+    "orange":        "#f4b478",
+    "dark_orange":   "#d68a55",
+    "yellow":        "#f8dfa5",
+    "bright_yellow": "#fbe7b8",
+    "search_yellow": "#f0d480",
+    "modified_bg":   "#b88f4a",
+
+    "green":         "#87d29c",
+    "bright_green":  "#9adfb0",
+    "tag_green":     "#aae5b8",
+    "created_bg":    "#6cc886",
+    "insert_green":  "#56b06a",
+
+    "accent_blue":   "#7eb1f0",
+    "focus_blue":    "#5e95da",
+    "drop_blue":     "#6ea8df",
+    "blue":          "#7eb1f0",
+    "bright_blue":   "#98c4f5",
+    "string_blue":   "#a8d0fa",
+    "cyan":          "#6ccfc0",
+    "bright_cyan":   "#8adcd0",
+
+    "purple":        "#b59cea",
+    "bright_purple": "#c8aef0",
+    "block_purple":  "#9a85d8",
+    "replace_pink":  "#c47aa0",
+
+    "pink":          "#ef8fb4",
+    "bright_pink":   "#f5b3cc",
+
+    "cobalt":        "#7eb1f0",
+    "moss":          "#86c890",
+    "bronze":        "#c89858",
+    "vermillion":    "#e08680",
+    "rose":          "#e088b0",
+    "violet":        "#b094e0"
+  }
+}

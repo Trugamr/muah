@@ -1,0 +1,18 @@
+{
+  "colors": {
+    "red":           "#e0726b",
+    "green":         "#5fc275",
+    "yellow":        "#dab955",
+    "blue":          "#5a93de",
+    "cyan":          "#4cb8a8",
+
+    "bright_red":    "#f08982",
+    "bright_green":  "#7fd098",
+    "bright_yellow": "#e5cc70",
+    "bright_blue":   "#7daee0",
+    "bright_cyan":   "#70c7b8",
+
+    "pink":          "#e87aa6",
+    "bright_pink":   "#f098bc"
+  }
+}

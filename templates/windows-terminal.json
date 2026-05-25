@@ -1,0 +1,25 @@
+{
+  "name": "muah",
+  "background": "{{mantle}}",
+  "foreground": "{{text}}",
+  "cursorColor": "{{pink}}",
+  "selectionBackground": "{{focus_blue}}",
+
+  "black":         "{{surface2}}",
+  "red":           "{{red}}",
+  "green":         "{{green}}",
+  "yellow":        "{{yellow}}",
+  "blue":          "{{blue}}",
+  "purple":        "{{pink}}",
+  "cyan":          "{{cyan}}",
+  "white":         "{{text}}",
+
+  "brightBlack":   "{{overlay1}}",
+  "brightRed":     "{{bright_red}}",
+  "brightGreen":   "{{bright_green}}",
+  "brightYellow":  "{{bright_yellow}}",
+  "brightBlue":    "{{bright_blue}}",
+  "brightPurple":  "{{bright_pink}}",
+  "brightCyan":    "{{bright_cyan}}",
+  "brightWhite":   "{{white}}"
+}
