@@ -1,6 +1,6 @@
 # muah
 
-A cross-platform theme. Dark only for now.
+A pastel dark theme with a pop of pink. 💋
 
 Currently ships ports for:
 - **Zed** (`ports/zed/muah.json`)
