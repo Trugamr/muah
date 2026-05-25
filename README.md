@@ -6,6 +6,7 @@ Currently ships ports for:
 - **Zed** (`ports/zed/muah.json`)
 - **Windows Terminal** (`ports/windows-terminal/muah.json`)
 - **tmux** (`ports/tmux/muah.tmux.conf`)
+- **fzf** (`ports/fzf/muah.opts`)
 
 ## Install
 
@@ -36,6 +37,20 @@ cp ports/tmux/muah.tmux.conf ~/.config/tmux/muah.conf
 # reload tmux to apply:
 tmux source-file ~/.tmux.conf
 ```
+
+### fzf
+
+Drop the opts file in your fzf config dir and point fzf at it via `FZF_DEFAULT_OPTS_FILE` (requires fzf ≥ 0.42).
+
+```bash
+mkdir -p ~/.config/fzf
+cp ports/fzf/muah.opts ~/.config/fzf/muah.opts
+
+# then add to your shell init (~/.zshrc / ~/.bashrc):
+#   export FZF_DEFAULT_OPTS_FILE=~/.config/fzf/muah.opts
+```
+
+Open a new shell and hit Ctrl+R to verify.
 
 ## Iteration loop
 

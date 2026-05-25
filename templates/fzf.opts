@@ -1,0 +1,25 @@
+# muah — fzf color theme
+# Generated from palette/dark.json — do not edit by hand.
+#
+# Install: point fzf at this file via FZF_DEFAULT_OPTS_FILE
+#   export FZF_DEFAULT_OPTS_FILE=~/.config/fzf/muah.opts
+
+--color=fg:{{text}}
+--color=bg:{{surface0}}
+--color=hl:{{pink}}
+
+--color=fg+:{{text}}
+--color=bg+:{{surface1}}
+--color=hl+:{{pink}}
+
+--color=info:{{subtext}}
+--color=prompt:{{pink}}
+--color=pointer:{{pink}}
+--color=marker:{{green}}
+--color=spinner:{{accent_blue}}
+--color=header:{{purple}}
+--color=border:{{overlay0}}
+--color=gutter:{{surface0}}
+
+--color=preview-fg:{{text}}
+--color=preview-bg:{{mantle}}
