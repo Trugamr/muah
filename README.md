@@ -10,6 +10,7 @@ Currently ships ports for:
 - **tmux** (`ports/tmux/muah.tmux.conf`)
 - **fzf** (`ports/fzf/muah.opts`)
 - **zsh** — fast-syntax-highlighting (`ports/zsh/muah.zsh`)
+- **Ptyxis** (`ports/ptyxis/muah.palette`)
 
 ## Install
 
@@ -68,6 +69,23 @@ cp ports/zsh/muah.zsh ~/.config/zsh/muah.zsh
 ```
 
 Reload (`exec zsh`) and type any command — keywords like `if`/`for`/`function` render pink, commands green, paths sky blue, strings light blue, comments grey.
+
+### Ptyxis
+
+Drop the palette into Ptyxis's user palette directory, then pick **muah** from Preferences → Appearance → Palette.
+
+```bash
+mkdir -p ~/.local/share/org.gnome.Ptyxis/palettes
+cp ports/ptyxis/muah.palette ~/.local/share/org.gnome.Ptyxis/palettes/muah.palette
+```
+
+Or import it via the CLI:
+
+```bash
+ptyxis --import-palette=ports/ptyxis/muah.palette
+```
+
+Open Preferences (Ctrl+,) → Appearance → Palette → select **muah**. No restart needed.
 
 ## Iteration loop
 

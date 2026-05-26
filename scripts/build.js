@@ -35,6 +35,7 @@ const targets = [
   { template: "tmux.conf",             out: "ports/tmux/muah.tmux.conf",        render: renderHex6 },
   { template: "fzf.opts",              out: "ports/fzf/muah.opts",              render: renderHex6 },
   { template: "zsh.zsh",               out: "ports/zsh/muah.zsh",               render: renderHex6 },
+  { template: "ptyxis.palette",        out: "ports/ptyxis/muah.palette",        render: renderHex6 },
 ];
 
 /**
