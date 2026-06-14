@@ -25,14 +25,14 @@ themes {
             base 240 246 252
             background 21 27 35
             emphasis_0 200 174 240
-            emphasis_1 108 207 192
+            emphasis_1 33 40 48
             emphasis_2 135 210 156
             emphasis_3 239 143 180
         }
         ribbon_selected {
             base 13 17 23
             background 239 143 180
-            emphasis_0 200 174 240
+            emphasis_0 13 17 23
             emphasis_1 108 207 192
             emphasis_2 135 210 156
             emphasis_3 126 177 240

@@ -25,14 +25,14 @@ themes {
             base {{text}}
             background {{surface0}}
             emphasis_0 {{bright_purple}}
-            emphasis_1 {{cyan}}
+            emphasis_1 {{surface1}}
             emphasis_2 {{green}}
             emphasis_3 {{pink}}
         }
         ribbon_selected {
             base {{crust}}
             background {{pink}}
-            emphasis_0 {{bright_purple}}
+            emphasis_0 {{crust}}
             emphasis_1 {{cyan}}
             emphasis_2 {{green}}
             emphasis_3 {{accent_blue}}
