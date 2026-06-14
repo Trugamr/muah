@@ -1,0 +1,133 @@
+// muah — Zellij color theme
+// Generated from palette/dark.json — do not edit by hand.
+//
+// Install: drop into ~/.config/zellij/themes/ and set `theme "muah"` in config.kdl.
+
+themes {
+    muah {
+        text_unselected {
+            base 240 246 252
+            background 1 4 9
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 239 143 180
+        }
+        text_selected {
+            base 240 246 252
+            background 33 40 48
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 239 143 180
+        }
+        ribbon_unselected {
+            base 240 246 252
+            background 21 27 35
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 239 143 180
+        }
+        ribbon_selected {
+            base 13 17 23
+            background 239 143 180
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 126 177 240
+        }
+        table_title {
+            base 200 174 240
+            background 1 4 9
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 239 143 180
+        }
+        table_cell_unselected {
+            base 240 246 252
+            background 21 27 35
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 239 143 180
+        }
+        table_cell_selected {
+            base 240 246 252
+            background 33 40 48
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 239 143 180
+        }
+        list_unselected {
+            base 240 246 252
+            background 21 27 35
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 239 143 180
+        }
+        list_selected {
+            base 240 246 252
+            background 33 40 48
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 239 143 180
+        }
+        frame_unselected {
+            base 61 68 77
+            background 1 4 9
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 239 143 180
+        }
+        frame_selected {
+            base 239 143 180
+            background 1 4 9
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 126 177 240
+        }
+        frame_highlight {
+            base 126 177 240
+            background 1 4 9
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 239 143 180
+        }
+        exit_code_success {
+            base 135 210 156
+            background 1 4 9
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 239 143 180
+        }
+        exit_code_error {
+            base 234 146 140
+            background 1 4 9
+            emphasis_0 200 174 240
+            emphasis_1 108 207 192
+            emphasis_2 135 210 156
+            emphasis_3 239 143 180
+        }
+        multiplayer_user_colors {
+            player_1 200 152 88
+            player_2 134 200 144
+            player_3 224 136 176
+            player_4 176 148 224
+            player_5 126 177 240
+            player_6 224 134 128
+            player_7 101 108 118
+            player_8 101 108 118
+            player_9 101 108 118
+            player_10 101 108 118
+        }
+    }
+}

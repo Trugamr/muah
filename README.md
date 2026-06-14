@@ -11,6 +11,7 @@ Currently ships ports for:
 - **fzf** (`ports/fzf/muah.opts`)
 - **zsh** — fast-syntax-highlighting (`ports/zsh/muah.zsh`)
 - **Ptyxis** (`ports/ptyxis/muah.palette`)
+- **Zellij** (`ports/zellij/muah.kdl`)
 
 ## Install
 
@@ -86,6 +87,20 @@ ptyxis --import-palette=ports/ptyxis/muah.palette
 ```
 
 Open Preferences (Ctrl+,) → Appearance → Palette → select **muah**. No restart needed.
+
+### Zellij
+
+Drop the theme into Zellij's theme directory and pick it in your config:
+
+```bash
+mkdir -p ~/.config/zellij/themes
+cp ports/zellij/muah.kdl ~/.config/zellij/themes/muah.kdl
+
+# then in ~/.config/zellij/config.kdl:
+#   theme "muah"
+```
+
+Restart Zellij to apply.
 
 ## Iteration loop
 
