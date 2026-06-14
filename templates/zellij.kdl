@@ -1,0 +1,133 @@
+// muah — Zellij color theme
+// Generated from palette/dark.json — do not edit by hand.
+//
+// Install: drop into ~/.config/zellij/themes/ and set `theme "muah"` in config.kdl.
+
+themes {
+    muah {
+        text_unselected {
+            base {{text}}
+            background {{mantle}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{pink}}
+        }
+        text_selected {
+            base {{text}}
+            background {{surface1}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{pink}}
+        }
+        ribbon_unselected {
+            base {{text}}
+            background {{surface0}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{pink}}
+        }
+        ribbon_selected {
+            base {{crust}}
+            background {{pink}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{accent_blue}}
+        }
+        table_title {
+            base {{bright_purple}}
+            background {{mantle}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{pink}}
+        }
+        table_cell_unselected {
+            base {{text}}
+            background {{surface0}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{pink}}
+        }
+        table_cell_selected {
+            base {{text}}
+            background {{surface1}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{pink}}
+        }
+        list_unselected {
+            base {{text}}
+            background {{surface0}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{pink}}
+        }
+        list_selected {
+            base {{text}}
+            background {{surface1}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{pink}}
+        }
+        frame_unselected {
+            base {{overlay0}}
+            background {{mantle}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{pink}}
+        }
+        frame_selected {
+            base {{pink}}
+            background {{mantle}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{accent_blue}}
+        }
+        frame_highlight {
+            base {{accent_blue}}
+            background {{mantle}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{pink}}
+        }
+        exit_code_success {
+            base {{green}}
+            background {{mantle}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{pink}}
+        }
+        exit_code_error {
+            base {{red}}
+            background {{mantle}}
+            emphasis_0 {{bright_purple}}
+            emphasis_1 {{cyan}}
+            emphasis_2 {{green}}
+            emphasis_3 {{pink}}
+        }
+        multiplayer_user_colors {
+            player_1 {{bronze}}
+            player_2 {{moss}}
+            player_3 {{rose}}
+            player_4 {{violet}}
+            player_5 {{cobalt}}
+            player_6 {{vermillion}}
+            player_7 {{overlay1}}
+            player_8 {{overlay1}}
+            player_9 {{overlay1}}
+            player_10 {{overlay1}}
+        }
+    }
+}

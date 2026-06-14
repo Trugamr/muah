@@ -27,6 +27,13 @@ const renderer = (format) => (text, palette) =>
 const renderHex  = renderer((hex, alpha) => `${hex}${(alpha ?? "ff").toLowerCase()}`);
 // 6-char hex (no alpha) — for formats like Windows Terminal that don't accept alpha in scheme colors.
 const renderHex6 = renderer((hex) => hex);
+// Space-separated RGB triples — for Zellij KDL themes.
+const renderRgb  = renderer((hex) => {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return `${r} ${g} ${b}`;
+});
 
 /** @type {Target[]} */
 const targets = [
@@ -36,6 +43,7 @@ const targets = [
   { template: "fzf.opts",              out: "ports/fzf/muah.opts",              render: renderHex6 },
   { template: "zsh.zsh",               out: "ports/zsh/muah.zsh",               render: renderHex6 },
   { template: "ptyxis.palette",        out: "ports/ptyxis/muah.palette",        render: renderHex6 },
+  { template: "zellij.kdl",            out: "ports/zellij/muah.kdl",            render: renderRgb  },
 ];
 
 /**
